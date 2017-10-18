@@ -14,4 +14,6 @@ RUN pip3 install ipyparallel
 
 RUN ipcluster nbextension enable
 
+ENV XDG_RUNTIME_DIR=""
+
 CMD /bin/bash 
