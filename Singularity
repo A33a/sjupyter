@@ -5,6 +5,7 @@ From: ubuntu:latest
 
 apt-get -y update
 apt-get -y install python3-pip net-tools
+apt-get -y install graphviz libgraphviz-dev
 
 pip3 install --upgrade pip
 pip3 install jupyter

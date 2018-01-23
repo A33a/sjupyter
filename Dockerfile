@@ -4,6 +4,8 @@ RUN apt-get -y update
 
 RUN apt-get -y install python3-pip net-tools
 
+RUN apt-get -y install graphviz libgraphviz-dev
+
 RUN pip3 install --upgrade pip
 
 RUN pip3 install jupyter
